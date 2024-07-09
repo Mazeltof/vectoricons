@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+<path opacity=".2" d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 14.2c-3.4 0-6.2-2.8-6.2-6.2 0-3.4 2.8-6.2 6.2-6.2 3.4 0 6.2 2.8 6.2 6.2 0 3.4-2.8 6.2-6.2 6.2z"/>
+<path d="M11.1 2.6l.9-1.5C10.8.4 9.5 0 8 0v1.8c1.1 0 2.2.3 3.1.8z">
+<animateTransform fill="remove" type="rotate" restart="always" dur="1s" to="360 8 8" from="0 8 8" attributeName="transform" attributeType="xml" calcMode="linear" additive="replace" accumulate="none" repeatCount="indefinite"/>
+</path>
+</svg>

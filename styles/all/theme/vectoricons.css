@@ -1,0 +1,82 @@
+/*  phpBB3 Extension Sheet
+	----------------------------------------------------------------------------------------------------------
+	Extension name:		vectoricons (for default phpBB 3.2.2 style)
+	Extension author:	Mazeltof ( http://www.mazeland.fr/ )
+	@license http://opensource.org/licenses/gpl-license.php GNU Public License
+	----------------------------------------------------------------------------------------------------------
+*/
+
+/* Forum icons & Topic icons */
+.announce_read,
+.global_read				{ background-image: url("./images/announce_read.svg"); }
+.announce_read_mine,
+.global_read_mine			{ background-image: url("./images/announce_read_mine.svg"); }
+.announce_read_locked,
+.global_read_locked			{ background-image: url("./images/announce_read_locked.svg"); }
+.announce_read_locked_mine,
+.global_read_locked_mine	{ background-image: url("./images/announce_read_locked_mine.svg"); }
+.announce_unread,
+.global_unread 				{ background-image: url("./images/announce_unread.svg"); }
+.announce_unread_mine,
+.global_unread_mine			{ background-image: url("./images/announce_unread_mine.svg"); }
+.announce_unread_locked,
+.global_unread_locked		{ background-image: url("./images/announce_unread_locked.svg"); }
+.announce_unread_locked_mine,
+.global_unread_locked_mine	{ background-image: url("./images/announce_unread_locked_mine.svg"); }
+
+.forum_link					{ background-image: url("./images/forum_link.svg"); }
+.forum_read					{ background-image: url("./images/forum_read.svg"); }
+.forum_read_locked			{ background-image: url("./images/forum_read_locked.svg"); }
+.forum_read_subforum		{ background-image: url("./images/forum_read_subforum.svg"); }
+.forum_unread				{ background-image: url("./images/forum_unread.svg"); }
+.forum_unread_locked		{ background-image: url("./images/forum_unread_locked.svg"); }
+.forum_unread_subforum		{ background-image: url("./images/forum_unread_subforum.svg"); }
+
+.pm_read					{ background-image: url("./images/pm_read.svg"); }
+.pm_unread					{ background-image: url("./images/pm_unread.svg"); }
+
+.sticky_read				{ background-image: url("./images/sticky_read.svg"); }
+.sticky_read_mine			{ background-image: url("./images/sticky_read_mine.svg"); }
+.sticky_read_locked			{ background-image: url("./images/sticky_read_locked.svg"); }
+.sticky_read_locked_mine	{ background-image: url("./images/sticky_read_locked_mine.svg"); }
+.sticky_unread				{ background-image: url("./images/sticky_unread.svg"); }
+.sticky_unread_mine			{ background-image: url("./images/sticky_unread_mine.svg"); }
+.sticky_unread_locked		{ background-image: url("./images/sticky_unread_locked.svg"); }
+.sticky_unread_locked_mine	{ background-image: url("./images/sticky_unread_locked_mine.svg"); }
+
+.topic_moved				{ background-image: url("./images/topic_moved.svg"); }
+.topic_read					{ background-image: url("./images/topic_read.svg"); }
+.topic_read_mine			{ background-image: url("./images/topic_read_mine.svg"); }
+.topic_read_hot				{ background-image: url("./images/topic_read_hot.svg"); }
+.topic_read_hot_mine		{ background-image: url("./images/topic_read_hot_mine.svg"); }
+.topic_read_locked			{ background-image: url("./images/topic_read_locked.svg"); }
+.topic_read_locked_mine		{ background-image: url("./images/topic_read_locked_mine.svg"); }
+.topic_unread				{ background-image: url("./images/topic_unread.svg"); }
+.topic_unread_mine			{ background-image: url("./images/topic_unread_mine.svg"); }
+.topic_unread_hot			{ background-image: url("./images/topic_unread_hot.svg"); }
+.topic_unread_hot_mine		{ background-image: url("./images/topic_unread_hot_mine.svg"); }
+.topic_unread_locked		{ background-image: url("./images/topic_unread_locked.svg"); }
+.topic_unread_locked_mine	{ background-image: url("./images/topic_unread_locked_mine.svg"); }
+
+/* Icon images */
+.contact-icon { background-image: url("./images/icons_contact.svg"); }
+
+/* Poster profile block */
+.online { background-image: url("./en/icon_user_online.svg"); }
+
+ul.topiclist.two-columns dt {
+	margin-right: -100px;
+}
+
+ul.topiclist.two-columns dt .list-inner {
+	margin-right: 100px;
+}
+
+.topiclist.two-columns dd.mark {
+	width: 100px;
+}
+
+/* plupload icons */
+.file-status.file-working	{ background: url('./images/plupload/throbber.svg'); }
+.file-status.file-uploaded	{ background: url('./images/plupload/done.svg'); }
+.file-status.file-error		{ background: url('./images/plupload/error.svg'); }
